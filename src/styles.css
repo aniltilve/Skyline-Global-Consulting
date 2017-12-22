@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+#background-video {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+#homepage-image {
+  width: 80%;
+  opacity: 0.75;
+} 
+
+#navbar-image {
+    display: inline-block;
+    max-height: 35px;
+}
+
+.homepage-content {
+  align-content: center;
+  padding-top: 15%;
+}
+
+.navbar-brand {
+    padding-top: 7px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.col-padded {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.title {
+    color: white;
+    font-weight: bolder;
+}
